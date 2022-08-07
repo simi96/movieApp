@@ -1,0 +1,134 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,340px);
+}
+
+.grid-item
+{
+    margin: 20px;
+    cursor: pointer;
+}
+
+.search-icon{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 530px;
+    top: 32px;
+}
+
+.movie-card {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+
+.movie-info{
+    color: white;
+}
+
+.time-spent {
+    color: white;
+    position: absolute;
+    left: 1113px;
+    top: -20px;
+}
+
+.error-info {
+    color: white;
+    position: absolute;
+    left: 40%;
+    bottom: 50% ;
+}
+
+.search-box {
+    margin-left: 37%;
+    margin-top: 25px;
+    border-radius: 25px;
+    height: 50px;
+    width: 25%;
+    text-align: center;
+}
+
+.cross-icon {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 41px;
+    right: 550px;
+    cursor: pointer;
+}
+
+.modalBackground {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    top: 270px;
+    right: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.background-grid {
+    display: grid;
+    grid-template-columns: repeat(4,340px);
+    filter: blur(10px);
+    pointer-events: none;
+}
+
+.modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: lightgrey;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.modal-title {
+    font-weight: 900;
+    text-align: center;
+    font-size: 30px;
+    margin: -23px;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-img {
+    height: 300px;
+    width: 500px;
+    padding-top: 10px;
+}
+
+.modal-cross {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 265px;
+    top: -218px;
+}
+
+.movie-card-info {
+    padding-top: 17px;
+    font-weight: 800;
+}
